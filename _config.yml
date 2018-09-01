@@ -1,0 +1,49 @@
+# Site settings
+title:       "Rutgers - USACS"
+header_title: "RUniteCS"
+email:       
+webmaster:      Alexander Goodkind
+description: 
+baseurl:     "" # no trailing slash !
+url:         ""
+date_format: "%-d.%m.%Y"
+
+include: ['_pages']
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      published: true
+
+favicon_path: "/assets/img/favicon/"  # include trailing slash !!!
+
+# Facebook
+facebook_app_id: ""
+
+# Social
+github_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username:
+facebook_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+instagram_username:
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
