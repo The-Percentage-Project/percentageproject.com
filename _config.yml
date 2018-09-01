@@ -26,6 +26,7 @@ defaults:
 # include trailing slash !!!
 favicon_path: "/assets/img/favicons/"  
 css_path: "/assets/css/"
+js_path: "/assets/js/"
 
 # Facebook
 facebook_app_id: ""
