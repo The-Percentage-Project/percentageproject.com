@@ -1,10 +1,10 @@
 # Site settings
-title:       "Rutgers - USACS"
-header_title: "RUniteCS"
+title:       "Percentage Project"
+header_title: "Percentage Project"
 email:       
 webmaster:      Alexander Goodkind
 description: 
-baseurl:     "Percentage-Project" # no trailing slash !
+baseurl:     "/Percentage-Project" # no trailing slash !
 url:         "https://agoodkind.github.io/"
 date_format: "%-d.%m.%Y"
 
@@ -23,7 +23,9 @@ defaults:
       layout: page
       published: true
 
-favicon_path: "/assets/img/favicon/"  # include trailing slash !!!
+# include trailing slash !!!
+favicon_path: "/assets/img/favicons/"  
+css_path: "/assets/css/"
 
 # Facebook
 facebook_app_id: ""
