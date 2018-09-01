@@ -4,8 +4,8 @@ header_title: "RUniteCS"
 email:       
 webmaster:      Alexander Goodkind
 description: 
-baseurl:     "" # no trailing slash !
-url:         ""
+baseurl:     "Percentage-Project" # no trailing slash !
+url:         "https://agoodkind.github.io/"
 date_format: "%-d.%m.%Y"
 
 include: ['_pages']
