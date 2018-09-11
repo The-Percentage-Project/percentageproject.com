@@ -20,6 +20,21 @@ layout: landing
     });
 </script>
 
+<style>
+    .card-hover-body {
+        display: none;
+        position: absolute;
+        /* vertical-align: middle; */
+        bottom: 0;
+        padding: 20px;
+        background-color: white;
+    }
+
+    .card:hover .card-hover-body {
+        display: unset;
+    }
+</style>
+
 <section class="features" id="gallery">
     <div class="container">
         <div class="section-heading text-center">
@@ -35,7 +50,7 @@ layout: landing
                 <div class="card">
                     <img class="card-img-top" src="{{ photo.path | prepend: site.baseurl }}"
                         alt="Card image cap">
-                    <div class="card-body">
+                    <div class="card-hover-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
