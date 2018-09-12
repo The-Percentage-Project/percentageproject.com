@@ -8,20 +8,12 @@ baseurl:     "/Percentage-Project" # no trailing slash !
 url:         "https://agoodkind.github.io/"
 date_format: "%-d.%m.%Y"
 
-include: ['_pages']
-
-collections:
-  pages:
-    output: true
-    permalink: /:path
-
 defaults:
   - scope:
-      path: ""
-      type: pages
+      path: "photos"
     values:
-      layout: page
-      published: true
+      image: true
+
 
 # include trailing slash !!!
 favicon_path: "/assets/img/favicons/"  
