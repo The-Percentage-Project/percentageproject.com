@@ -1,9 +1,7 @@
 ---
 layout: landing
 ---
-{% comment %} <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-{% endcomment %}
+
 <style>
 .card-hover-body {
     position: absolute;
@@ -16,7 +14,7 @@ layout: landing
     opacity: 1;
 }
 
-.card:before {
+.card::before {
     position: absolute;
     content: '';
     top: 0;
@@ -28,11 +26,7 @@ layout: landing
 }
 
 .card:hover::before {
-    opacity: 1;
-}
-
-.card::before {
-    opacity: 0;
+    opacity: .75;
 }
 
 .card-hover-body,
@@ -258,16 +252,35 @@ section.contact ul.list-social li.social-google-plus a:hover {
     background-color: white;
     color: black;
 }
+
+a.photo-button{
+    color: #464646;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #a2a2a2;
+}
+
+.contact a:hover {
+    color: #777;
+}
+
+.mobile .card-hover-body {
+    opacity: 1;
+    position: unset;
+    padding: 10px;
+}
+
+.mobile .card::before, .mobile .card:hover::before {
+    opacity: 0;
+    
+}
+
 </style>
 
-<section class="features" id="gallery">
+<section class="features mb-5" id="gallery">
     <div class="container">
-        {% comment %} <div class="section-heading text-center">
-            <h2>Unlimited Features, Unlimited Fun</h2>
-            <p class="text-muted">Check out what you can do with this app theme!</p>
-            <hr>
-        </div> {% endcomment %}
-
         <div class="row" id="photos">
             {% assign photos = site.static_files | where: "image", true %}
             {% for photo in photos %}
@@ -275,9 +288,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
                 <div class="card">
                     <img class="card-img-top" src="{{ photo.path | prepend: site.baseurl }}" alt="Card image cap">
                     <div class="card-hover-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#about" class="btn js-scroll-trigger photo-button">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -309,7 +320,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
             Lucia: <a href="mailto:luciahuo@sas.upenn.edu">luciahuo@sas.upenn.edu</a><br/>
             Stephanie: <a href="mailto:steptang@seas.upenn.edu">steptang@seas.upenn.edu</a>
         </p>
-        <ul class="list-inline list-social">
+        {% comment %} <ul class="list-inline list-social">
             <li class="list-inline-item social-twitter">
                 <a href="#">
                     <i class="fab fa-twitter"></i>
@@ -325,24 +336,39 @@ section.contact ul.list-social li.social-google-plus a:hover {
                     <i class="fab fa-google-plus"></i>
                 </a>
             </li>
-        </ul>
+        </ul> {% endcomment %}
     </div>
 </section>
 
-{% comment %} <script type="text/javascript">
-    // $(document).ready(function() {
-    //     hljs.initHighlightingOnLoad();
-    //     function applyTiles() {
-    //         var posts = $('#posts ul');
-    //         posts.imagesLoaded(function() {
-    //             $('#photos').masonry({ itemSelector : '.card-outer' });;
-    //         });
-    //     }
-    //     $(function() {
-    //         applyTiles();
-    //     });
-    //     $(window).resize(function() {
-    //         applyTiles();
-    //     });
-    // })
-</script> {% endcomment %}
+<script type="text/javascript">
+if ($.browser.mobile) {
+    $('#photos').addClass('mobile')
+}
+
+// init Masonry
+var $grid = $('#photos').masonry({
+    itemSelector: '.card-outer'
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+    {% comment %} $('.card-outer').addClass('not-loaded');
+    $('.card-outer.not-loaded').lazyload({
+        effect: 'fadeIn',
+        load: function() {
+            // Disable trigger on this image
+            $(this).removeClass("not-loaded");
+            $grid.masonry('reload');
+        }
+    });
+    $('.card-outer.not-loaded').trigger('scroll'); {% endcomment %}
+});
+
+$(window).resize(function() {
+    $grid.masonry('layout');
+})
+
+$(window).scroll(function() {
+    $grid.masonry('layout');
+})
+</script>
