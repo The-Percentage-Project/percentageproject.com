@@ -122,7 +122,7 @@ section.features .feature-item i {
 }
 
 section.cta {
-    height: 100vh;
+    /* height: 100vh; // causes odd mobile layout overlap with contact section */
     position: relative;
     padding: 250px 0;
     background-color: #222222;
@@ -166,7 +166,7 @@ section.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 50%;
+    height: 100%; /* 50% caused odd layout issues as well for contact section */
     background-color: black;
 }
 
