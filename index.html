@@ -286,7 +286,7 @@ a.photo-button{
             {% for photo in photos %}
             <div class="col-xs-7 col-md-6 mt-5 card-outer">
                 <div class="card">
-                    <img class="card-img-top" src="{{ photo.path | prepend: site.baseurl }}" alt="Card image cap">
+                    <img class="card-img-top" src="{{ photo.path }}" alt="Card image cap">
                     <div class="card-hover-body">
                         <a href="#about" class="btn js-scroll-trigger photo-button">Learn More</a>
                     </div>
