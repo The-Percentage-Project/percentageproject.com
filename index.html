@@ -284,8 +284,6 @@ a.photo-button{
 
 </style>
 
-
-
 <section class="cta" id="about">
     <div class="cta-content">
         <div class="container">
@@ -334,9 +332,9 @@ a.photo-button{
         <div class="row" id="photos">
             {% assign photos = site.static_files | where: "image", true %}
             {% for photo in photos %}
-            <div class="col-xs-7 col-md-6 mt-5 card-outer">
+            <div style="display:none;" class="col-xs-7 col-md-6 mt-5 card-outer">
                 <div class="card">
-                    <img class="card-img-top" src="{{ photo.path | prepend: site.baseurl }}" alt="Card image cap">
+                    <img class="card-img-top"  data-src="{{ photo.path | prepend: site.baseurl }}" alt="Card image cap">
                     <div class="card-hover-body">
                         <a href="#about" class="btn js-scroll-trigger photo-button">Learn More</a>
                     </div>
@@ -351,30 +349,33 @@ a.photo-button{
 if ($.browser.mobile) { // only need this to be called once and not dynamically because its unlikely that one would suddenly change their user agent
     $('body').addClass('mobile');
 }
+
 // init Masonry
 var $grid = $('#photos').masonry({
     itemSelector: '.card-outer'
 });
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-    $grid.masonry('layout');
-    {%- comment -%} $('.card-outer').addClass('not-loaded');
-    $('.card-outer.not-loaded').lazyload({
-        effect: 'fadeIn',
-        load: function() {
-            // Disable trigger on this image
-            $(this).removeClass("not-loaded");
-            $grid.masonry('reload');
+
+$(function() {
+    $('.card-img-top').Lazy({
+        afterLoad: function(element) {
+            $(element).parent().parent().show(),
+            $grid.masonry( 'appended', element ).masonry();
+        },
+        onFinishedAll: function(element) {
+            $grid.masonry('reloadItems').masonry('layout');
+        },
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
         }
     });
-    $('.card-outer.not-loaded').trigger('scroll'); {%- endcomment -%}
+    
 });
 
 $(window).resize(function() {
     $grid.masonry('layout');
-})
+});
 
-{%- comment -%} $(window).scroll(function() {
+$(window).scroll(function() {
     $grid.masonry('layout');
-}) {%- endcomment -%}
+});
 </script>
