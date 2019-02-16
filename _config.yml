@@ -2,10 +2,10 @@
 title:       "Percentage Project"
 header_title: "Percentage Project"
 email:       
-webmaster:      Alexander Goodkind
+webmaster:      alexander@goodkind.io
 description: 
-baseurl:     "/Percentage-Project" # no trailing slash !
-url:         "https://agoodkind.github.io/"
+baseurl:     "" # no trailing slash !
+url:         "http://percentageproject.com
 date_format: "%-d.%m.%Y"
 
 defaults:
