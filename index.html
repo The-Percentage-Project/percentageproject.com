@@ -122,7 +122,7 @@ section.features .feature-item i {
 }
 
 section.cta {
-    /* height: 100vh; // causes odd mobile layout overlap with contact section */
+    height: 100%;
     position: relative;
     padding: 250px 0;
     background-color: #222222;
@@ -131,6 +131,7 @@ section.cta {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 
 section.cta .cta-content {
@@ -279,23 +280,7 @@ a.photo-button{
 
 </style>
 
-<section class="features mb-5" id="gallery">
-    <div class="container">
-        <div class="row" id="photos">
-            {% assign photos = site.static_files | where: "image", true %}
-            {% for photo in photos %}
-            <div class="col-xs-7 col-md-6 mt-5 card-outer">
-                <div class="card">
-                    <img class="card-img-top" src="{{ photo.path | prepend: site.baseurl }}" alt="Card image cap">
-                    <div class="card-hover-body">
-                        <a href="#about" class="btn js-scroll-trigger photo-button">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+
 
 <section class="cta" id="about">
     <div class="cta-content">
@@ -340,11 +325,28 @@ a.photo-button{
     </div>
 </section>
 
+<section class="features mb-5" id="gallery">
+    <div class="container">
+        <div class="row" id="photos">
+            {% assign photos = site.static_files | where: "image", true %}
+            {% for photo in photos %}
+            <div class="col-xs-7 col-md-6 mt-5 card-outer">
+                <div class="card">
+                    <img class="card-img-top" src="{{ photo.path | prepend: site.baseurl }}" alt="Card image cap">
+                    <div class="card-hover-body">
+                        <a href="#about" class="btn js-scroll-trigger photo-button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
 <script type="text/javascript">
-if ($.browser.mobile) {
+if ($.browser.mobile) { // only need this to be called once and not dynamically because its unlikely that one would suddenly change their user agent
     $('#photos').addClass('mobile')
 }
-
 // init Masonry
 var $grid = $('#photos').masonry({
     itemSelector: '.card-outer'
@@ -352,7 +354,7 @@ var $grid = $('#photos').masonry({
 // layout Masonry after each image loads
 $grid.imagesLoaded().progress( function() {
     $grid.masonry('layout');
-    {% comment %} $('.card-outer').addClass('not-loaded');
+    {%- comment -%} $('.card-outer').addClass('not-loaded');
     $('.card-outer.not-loaded').lazyload({
         effect: 'fadeIn',
         load: function() {
@@ -361,14 +363,14 @@ $grid.imagesLoaded().progress( function() {
             $grid.masonry('reload');
         }
     });
-    $('.card-outer.not-loaded').trigger('scroll'); {% endcomment %}
+    $('.card-outer.not-loaded').trigger('scroll'); {%- endcomment -%}
 });
 
 $(window).resize(function() {
     $grid.masonry('layout');
 })
 
-$(window).scroll(function() {
+{%- comment -%} $(window).scroll(function() {
     $grid.masonry('layout');
-})
+}) {%- endcomment -%}
 </script>
