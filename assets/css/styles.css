@@ -29,9 +29,6 @@ a {
   transition: all .35s;
 }
 
-a:hover,
-a:focus {}
-
 hr {
   max-width: 100px;
   margin: 25px auto 0;
@@ -83,9 +80,6 @@ section h2 {
   letter-spacing: 1px;
 }
 
-#mainNav .navbar-brand:hover,
-#mainNav .navbar-brand:focus {}
-
 #mainNav .navbar-toggler {
   font-size: 12px;
   padding: 8px 10px;
@@ -116,8 +110,6 @@ section h2 {
     background-color: transparent;
   }
 
-  #mainNav .navbar-brand {}
-
   #mainNav .navbar-brand:hover,
   #mainNav .navbar-brand:focus {
     color: white;
@@ -142,16 +134,11 @@ section h2 {
     color: #222222;
   }
 
-  #mainNav.navbar-shrink .navbar-brand:hover,
-  #mainNav.navbar-shrink .navbar-brand:focus {}
-
   #mainNav.navbar-shrink .navbar-nav>li>a,
   #mainNav.navbar-shrink .navbar-nav>li>a:focus {
     color: #222222;
   }
 
-  #mainNav.navbar-shrink .navbar-nav>li>a:hover,
-  #mainNav.navbar-shrink .navbar-nav>li>a:focus:hover {}
 }
 
 header.masthead {
@@ -160,7 +147,6 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  /* background: url("https://cdn-static.blackandwhite-ff.com/BWContent/ProenzaSchouler/proenza-schouler-fall-2018-campaign-horizontal-tie-dye-dress.jpg") no-repeat center center fixed; */
   background: black;
   background-size: cover;
 }
@@ -326,58 +312,31 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
-section.cta {
-  min-height: 700px;
-  height: 100vh;
-  display: flex;
-  direction: column;
-  position: relative;
-  justify-content: center;
-  background-color: #222222;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 150px 0;
-
-}
-
-section.cta .cta-content {
-  position: relative;
-  z-index: 1;
-}
-
-section.cta .cta-content h2 {
-  font-size: 50px;
-  max-width: 450px;
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: white;
-}
-
-@media (min-width: 768px) {
-  section.cta .cta-content h2 {
-    font-size: 80px;
-  }
-}
-
-section.cta .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-section.contact {
-  text-align: center;
+section.contact, section.about {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  /* 50% caused odd layout issues as well for contact section */
+  
+}
+
+/* about */
+
+section.about {
+  text-align: left;
+  background-color: rgb(17,17,17);
+}
+
+section.about h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+/*contact*/
+
+section.contact {
+  text-align: center;
   background-color: black;
 }
 
@@ -385,50 +344,6 @@ section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
 }
-
-section.contact h2 i {
-  color: #dd4b39;
-}
-
-section.contact ul.list-social {
-  margin-bottom: 0;
-}
-
-section.contact ul.list-social li a {
-  font-size: 40px;
-  line-height: 80px;
-  display: block;
-  width: 80px;
-  height: 80px;
-  color: white;
-  border-radius: 100%;
-}
-
-section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
-}
-
-section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
-}
-
-section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
-}
-
-section.contact ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
-}
-
-section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
-}
-
-section.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
-}
-
-
 
 .no-gutter>[class*='col-'] {
   padding-right: 0;
