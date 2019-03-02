@@ -72,12 +72,11 @@ layout: landing
     $(function () {
         $('.card-img-top').Lazy({
             afterLoad: function (element) {
-                $(element).parent().parent().show(),
-                    $grid.masonry('appended', element).masonry();
+                $grid.masonry('appended', element).masonry();
                 $grid.masonry('layout');
             },
             onFinishedAll: function (element) {
-                $("#photos").fadeIn();
+                $('.card-outer').fadeIn();
                 $('.loading').fadeOut();
                 $grid.masonry('reloadItems').masonry('layout');
             },

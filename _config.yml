@@ -10,7 +10,7 @@ date_format: "%-d.%m.%Y"
 
 defaults:
   - scope:
-      path: "photos"
+      path: "photos/photos_compressed"
     values:
       image: true
 
