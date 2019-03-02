@@ -308,9 +308,12 @@ section.features .feature-item i {
   margin-bottom: 15px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/*about & contact*/
 
 section.contact, section.about {
   
@@ -406,7 +409,8 @@ a.photo-button {
 
 .loading {
   text-align: center;
-  width: 50%;
+  max-width: 50%;
+  min-width: 320px;
   margin: 0 auto;
   display: block;
 }
