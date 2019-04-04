@@ -9,8 +9,8 @@ layout: landing
             to showcase data along with advocates to put a face to a number; we aim to encourage reflection upon
             the situations of minorities affected by microaggression, discrimination, and for what could be done to
             alleviate these instances.</p>
-        <a href="#gallery" class="mr-2 btn btn-outline btn-xl js-scroll-trigger ">Gallery</a>
-        <a href="#contact" class="ml-2 btn btn-outline btn-xl js-scroll-trigger">Contact</a>
+        <a alt="Click here to learn more" href="#gallery" class="mr-2 btn btn-outline btn-xl js-scroll-trigger ">Gallery</a>
+        <a alt="Click here to see the gallery of participating students" href="#contact" class="ml-2 btn btn-outline btn-xl js-scroll-trigger">Contact</a>
     </div>
     <div class="overlay"></div>
 </section>
@@ -21,7 +21,7 @@ layout: landing
         <p class="text-white">
             If you are interested in participating or bringing The % Project to your campus, shoot us an email.<br />
             Lucia: <a href="mailto:luciahuo@sas.upenn.edu">luciahuo@sas.upenn.edu</a><br />
-	    Megan: <a href="mailto:megpaik@seas.upenn.edu">megpaik@seas.upenn.edu</a><br />
+	        Megan: <a href="mailto:megpaik@seas.upenn.edu">megpaik@seas.upenn.edu</a><br />
             Stephanie: <a href="mailto:steptang@seas.upenn.edu">steptang@seas.upenn.edu</a>
         </p>
         {% comment %} <ul class="list-inline list-social">
@@ -52,9 +52,9 @@ layout: landing
             {% for photo in photos %}
             <div style="display:none;" class="col-xs-7 col-md-6 mt-5 card-outer">
                 <div class="card">
-                    <img class="card-img-top" data-src="{{ photo.path | prepend: site.baseurl }}" alt="Card image cap">
+                    <img class="card-img-top" data-src="{{ photo.path | prepend: 'https://cdn.jsdelivr.net/gh/penn-wics/Percentage-Project' }}" alt="Image of {{ photo.path  }}">
                     <div class="card-hover-body">
-                        <a href="#about" class="btn js-scroll-trigger photo-button">Learn More</a>
+                        <a href="#about" alt="Click here to learn more" class="btn js-scroll-trigger photo-button">Learn More</a>
                     </div>
                 </div>
             </div>
