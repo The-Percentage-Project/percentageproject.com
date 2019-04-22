@@ -58,21 +58,21 @@ layout: landing
     </div>
 </section>
 
-
 <section class="features mb-5" id="gallery">
     <div class="container">
         <img class="loading" src="{{ '/assets/img/dribbble.gif' | prepend: site.baseurl }}" />
         <div class="row" id="photos">
-            {% directory path: photos/photos_compressed [reverse] [exclude] %}
+            {% assign photos = site.static_files | where: "image", true %}
+            {% for photo in photos %}
             <div style="display:none;" class="col-xs-7 col-md-6 mt-5 card-outer">
-                <div class="card">     
-                    <img class="card-img-top"  alt="{{ file.name }}" datetime="{{ file.date | date_to_xmlschema }}"  data-src="{{ file.url | prepend: 'https://cdn.jsdelivr.net/gh/penn-wics/Percentage-Project' }}" alt="Image of {{ photo.path  }}">
+                <div class="card">
+                    <img class="card-img-top" data-src="{{ photo.path | prepend: 'https://cdn.jsdelivr.net/gh/penn-wics/Percentage-Project' }}" alt="Image of {{ photo.path  }}">
                     <div class="card-hover-body">
                         <a href="#about" alt="Click here to learn more" class="btn js-scroll-trigger photo-button">Learn More</a>
                     </div>
                 </div>
             </div>
-            {% enddirectory %}
+            {% endfor %}
         </div>
     </div>
 </section>
