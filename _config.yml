@@ -21,3 +21,6 @@ google_analytics_tracking_code: UA-137802583-1
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
+
+plugins:
+  - DirectoryTag
