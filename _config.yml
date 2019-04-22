@@ -9,12 +9,6 @@ baseurl:    "" # no trailing slash !
 url:         "https://percentageproject.com"
 date_format: "%-d.%m.%Y"
 
-defaults:
-  - scope:
-      path: "photos/photos_compressed"
-    values:
-      image: true
-
 # include trailing slash !!!
 favicon_path: "/assets/img/favicons/"  
 css_path: "/assets/css/"

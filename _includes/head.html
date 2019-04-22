@@ -1,9 +1,7 @@
-<!-- 
-{{ site.title }}
-{{ site.description | xml_escape }} 
-Site Author: {{ site.author }}
-Webmaster contact: {{ site.webmaster }} 
--->
+<!-- {{ site.title }} -->
+<!-- {{ site.description | xml_escape }}  -->
+<!-- Site Author: {{ site.author }} -->
+<!-- Webmaster contact: {{ site.webmaster }}  -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,8 +15,6 @@ Webmaster contact: {{ site.webmaster }}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ /feed.xml | prepend: site.baseurl }}" />
-
-
     
     <!-- Open Graph -->
     <meta property="og:locale" content="en_EN">
