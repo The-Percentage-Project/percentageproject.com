@@ -228,40 +228,39 @@ header.masthead {
   transition: all .25s ease-in-out !important;
 }
 
-section.download {
-  position: relative;
-  padding: 150px 0;
+/*about & contact*/
+
+section.contact, section.about {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  
 }
 
-section.download h2 {
-  font-size: 50px;
+/* about */
+
+section.about {
+  text-align: left;
+  background-color: rgb(17,17,17);
+}
+
+section.about h2 {
   margin-top: 0;
-}
-
-section.download .badges .badge-link {
-  display: block;
   margin-bottom: 25px;
 }
 
-section.download .badges .badge-link:last-child {
-  margin-bottom: 0;
+/*contact*/
+
+section.contact {
+  text-align: center;
+  background-color: black;
 }
 
-section.download .badges .badge-link img {
-  height: 60px;
-}
-
-@media (min-width: 768px) {
-  section.download .badges .badge-link {
-    display: inline-block;
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  section.download h2 {
-    font-size: 70px;
-  }
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 section.features .section-heading {
@@ -313,40 +312,7 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
-/*about & contact*/
 
-section.contact, section.about {
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  
-}
-
-/* about */
-
-section.about {
-  text-align: left;
-  background-color: rgb(17,17,17);
-}
-
-section.about h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-}
-
-/*contact*/
-
-section.contact {
-  text-align: center;
-  background-color: black;
-}
-
-section.contact h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-}
 
 .no-gutter>[class*='col-'] {
   padding-right: 0;
