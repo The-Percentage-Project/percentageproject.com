@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: default
 ---
 
 <header class="masthead">
@@ -23,8 +23,8 @@ layout: landing
             to showcase data along with advocates to put a face to a number; we aim to encourage reflection upon
             the situations of minorities affected by microaggression, discrimination, and for what could be done to
             alleviate these instances.</p>
-        <a alt="Click here to learn more" href="#gallery" class="mr-2 btn btn-outline btn-xl js-scroll-trigger ">Gallery</a>
-        <a alt="Click here to see the gallery of participating students" href="#contact" class="ml-2 btn btn-outline btn-xl js-scroll-trigger">Contact</a>
+        <a alt="Click here to see the gallery of participating students." href="#gallery" class="mr-2 btn btn-outline btn-xl js-scroll-trigger ">Gallery</a>
+        <a alt="Click here to find out how to contact us." href="#contact" class="ml-2 btn btn-outline btn-xl js-scroll-trigger">Contact</a>
     </div>
     <div class="overlay"></div>
 </section>
@@ -41,41 +41,62 @@ layout: landing
     </div>
 </section>
 
+<div class="dropdown year-selection">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="true">
+        Latest gallery
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        {% for year in site.years %}
+            <a href="#" class="dropdown-item js-gallery-trigger" data-value="{{ year.title }}">{{ year.title }}</a>
+        {% endfor %}
+    </ul>
+</div>
+
+<script>
+    $(".dropdown-menu .dropdown-item").click(function() {
+        event.preventDefault();
+        $(this).parents(".dropdown").find('.btn').html($(this).text() + ' gallery <span class="caret"></span>');
+        $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+    });
+</script>
+
 <section class="features mb-5" id="gallery">
-    <div class="container">
-        <img class="loading" src="{{ '/assets/img/dribbble.gif' | prepend: site.baseurl }}" />
-        <div class="row" id="photos">
-            {% assign photos = site.static_files | where: "image", true %}
-            {% for photo in photos %}
-            <div style="display:none;" class="col-xs-7 col-md-6 mt-5 card-outer">
-                <div class="card">
-                    <img class="card-img-top" data-src="{{ photo.path | prepend: 'https://cdn.jsdelivr.net/gh/penn-wics/Percentage-Project' }}" alt="Image of {{ photo.path  }}">
-                    <div class="card-hover-body">
-                        <a href="#about" alt="Click here to learn more" class="btn js-scroll-trigger photo-button">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
+    <img class="loading" src="{{ '/assets/img/dribbble.gif' | prepend: site.baseurl }}" />
+    {% for year in site.years %}
+        {% if year.published %}
+        <div class="container">
+            {{ year.content }}
         </div>
-    </div>
+        {% endif %}
+    {% endfor %}
 </section>
 
+
 <script type="text/javascript">
+
+    var $current = $('.latest-photos');
+
     if ($.browser.mobile) { // only need this to be called once and not dynamically because its unlikely that one would suddenly change their user agent
         $('body').addClass('mobile');
     }
+
     // init Masonry
-    var $grid = $('#photos').masonry({
-        itemSelector: '.card-outer'
-    });
+    var $grid = null;
+
     $(function () {
-        $('.card-img-top').Lazy({
+        $grid = $current.masonry({
+            itemSelector: '.card-outer'
+        })
+
+        $current.find('.card-img-top').Lazy({
             afterLoad: function (element) {
                 $grid.masonry('appended', element).masonry();
                 $grid.masonry('layout');
             },
-            onFinishedAll: function (element) {
-                $('.card-outer').fadeIn();
+            onFinishedAll: function () {
+                $current.find('.card-outer').fadeIn();
                 $('.loading').fadeOut();
                 $grid.masonry('reloadItems').masonry('layout');
             },
@@ -83,12 +104,49 @@ layout: landing
                 console.log('error loading ' + element.data('src'));
             }
         });
-
     });
+
     $(window).resize(function () {
         $grid.masonry('layout');
     });
+
     $(window).scroll(function () {
         $grid.masonry('layout');
     });
+
+    $('.js-gallery-trigger').on('click', function() {
+        var year = $(this).data('value');
+
+        $current.find('.card-outer').fadeOut();
+        $('.loading').fadeIn();
+
+        $grid.masonry('destroy');
+
+        $current = $('.' + year + '-photos');
+
+        $grid = $current.masonry({
+            itemSelector: '.card-outer'
+        })
+
+        $current.find('.card-img-top').lazy({
+
+            afterLoad: function (element) {
+                $grid.masonry('appended', element).masonry();
+                $grid.masonry('layout');
+            },
+
+            onFinishedAll: function () {
+                $current.find('.card-outer').fadeIn();
+                $('.loading').fadeOut();
+                $grid.masonry('reloadItems').masonry('layout');
+            },
+            
+            onError: function (element) {
+                console.log('error loading ' + element.data('src'));
+            }
+
+        });
+
+    })
+
 </script>
