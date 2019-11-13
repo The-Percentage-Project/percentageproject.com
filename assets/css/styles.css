@@ -263,6 +263,12 @@ section.contact h2 {
   margin-bottom: 25px;
 }
 
+/* gallery */
+
+section.gallery {
+  min-height: 100%;
+}
+
 section.features .section-heading {
   margin-bottom: 100px;
 }
