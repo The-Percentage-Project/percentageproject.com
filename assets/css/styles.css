@@ -71,6 +71,7 @@ section h2 {
   font-weight: 400;
   letter-spacing: 1px;
   font-family: NeuzeitS-BookHeavy, sans-serif;
+  min-height: 50px;
 }
 
 #mainNav .navbar-brand {
@@ -264,8 +265,6 @@ section.contact h2 {
 }
 
 /* gallery */
-
-
 
 section.gallery {
   min-height: 100%;
