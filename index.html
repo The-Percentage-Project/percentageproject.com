@@ -80,79 +80,70 @@ layout: default
     }
 
     // init Masonry
-    var $grid = null;
+    var $grid = $current.masonry({
+        itemSelector: '.masonry-item-loaded'
+    });
     
 
-    $(function () {
-        $grid = $current.masonry({
-            itemSelector: '.card-outer'
-        })
-
+    var setUpLazy = function() {
         $current.find('.card-img-top').Lazy({
             afterLoad: function (element) {
-                $grid.masonry('appended', element).masonry();
-                $grid.masonry('layout');
+                $newItem = $(element)
+                    .closest('.card-outer')
+                    .addClass('.masonry-item-loaded');
+
+                $grid.masonry('appended', $newItem);
             },
             onFinishedAll: function () {
-                $current.find('.card-outer').fadeIn();
                 $('.loading').fadeOut();
-                $grid.masonry('reloadItems').masonry('layout');
-                $current.addClass("already-loaded");
+                $current
+                    .addClass("already-loaded")
+                    .fadeIn();
+
+                $grid.masonry('layout');
+
             },
             onError: function (element) {
                 console.log('error loading ' + element.data('src'));
             }
         });
+    }
+
+    $(function () {
+        setUpLazy();
     });
 
-    $(window).resize(function () {
-        $grid.masonry('layout');
-    });
-
-    $(window).scroll(function () {
+    // when we resize re-layout masonry
+    $(window).on("resize", function () {
         $grid.masonry('layout');
     });
 
     $('.js-gallery-trigger').click(function () {
-        var year = $(this).data('value');
-
-        $current.find('.card-outer').fadeOut();
+        // we are "Loading" again
         $('.loading').fadeIn();
+        // hide from user
+        $current.fadeOut();
 
-        $grid.masonry('destroy');
-
+        // get set of photos
+        var year = $(this).data('value');
         $current = $('.' + year + '-photos');
 
+        // destroy rid of old masonry
+        $grid.masonry('destroy');
+
+        // set up new masonry
         $grid = $current.masonry({
-            itemSelector: '.card-outer'
+            itemSelector: '.masonry-item-loaded'
         })
 
+        // load photos
         if ($current.hasClass("already-loaded")) {
-            $current.find('.card-outer').fadeIn();
             $('.loading').fadeOut();
-            
-            $grid.masonry('reloadItems').masonry('layout');
+            $current.fadeIn();
+            $grid.masonry('layout');
+
         } else {
-            $current.find('.card-img-top').lazy({
-
-                afterLoad: function (element) {
-                    $grid.masonry('appended', element).masonry();
-                    $grid.masonry('layout');
-                },
-
-                onFinishedAll: function () {
-                    $current.find('.card-outer').fadeIn();
-                    $('.loading').fadeOut();
-                    $grid.masonry('reloadItems').masonry('layout');
-                    $current.addClass("already-loaded");
-                },
-
-                onError: function (element) {
-                    console.log('error loading ' + element.data('src'));
-                }
-
-            });
-
+            setUpLazy();
         }
 
     })

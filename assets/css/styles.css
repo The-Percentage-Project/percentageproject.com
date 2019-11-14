@@ -265,8 +265,14 @@ section.contact h2 {
 
 /* gallery */
 
+
+
 section.gallery {
   min-height: 100%;
+}
+
+section.gallery .photos-masonry {
+  height: unset !important;
 }
 
 section.features .section-heading {
@@ -317,8 +323,6 @@ section.features .feature-item i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
 
 .no-gutter>[class*='col-'] {
   padding-right: 0;

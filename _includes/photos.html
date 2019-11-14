@@ -1,7 +1,7 @@
-<div class="row {{ page.year }}-photos">
+<div style="display: none;" class="photos-masonry row {{ page.year }}-photos">
     {% assign photos = site.static_files | where: "image", page.year %}
     {% for photo in photos %}
-        <div style="display: none;" class="col-xs-7 col-md-6 mt-5 card-outer">
+        <div class="col-xs-7 col-md-6 mt-5 card-outer">
             <div class="card">
                 <img class="card-img-top"
                     data-src="{{ photo.path | prepend: 'https://cdn.jsdelivr.net/gh/penn-wics/Percentage-Project' }}"
