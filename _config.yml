@@ -5,8 +5,6 @@ webmaster:      "Alexander Goodkind <alex@percentageproject.com>"
 author: "The University of Pennsylvania Women in Computer Science (Penn WiCS) "
 description: "The #PercentageProject is an artistic, visual outlet for data collected from an anonymous survey of Computer Science students. The Percentage Project was founded in 2018 at the University of Pennsyvlania with the goal of showcasing data along with advocates to put a face to the statistic. We aim to encourage reflection and conversation on the experiences of minority students beyond just how many minority students we have."
 
-baseurl:    "" # no trailing slash !
-url:         "https://percentageproject.com"
 date_format: "%-d.%m.%Y"
 
 collections:
@@ -37,3 +35,6 @@ google_analytics_tracking_code: UA-137802583-1
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
+
+plugins:
+  - "jekyll-github-metadata"

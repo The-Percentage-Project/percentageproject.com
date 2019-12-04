@@ -21,7 +21,7 @@
     <meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
     <meta property="og:type" content="article">
     <meta property="og:title" content="{% if page.title %}{{ page.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
-    <meta property="og:image" content="{{ '/assets/img/logo.png' | prepend: site.baseurl }}">
+    <meta property="og:image" content="{{ '/assets/img/logo.png' | prepend: site.baseurl | prepend: site.url}}">
 
     <meta property="og:description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
@@ -83,7 +83,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="{{ 'styles.css' | prepend: site.css_path | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ 'styles.css' | prepend: site.css_path | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- masonry -->
 
