@@ -107,7 +107,7 @@ class AnimatedBarMobile extends React.Component {
             width={600}
             animate={{ duration: 1000 }}
             //theme={VictoryTheme.material}            
-            padding={{left: 400, bottom: 40, right: 60}}
+            padding={{left: 350, bottom: 40, right: 70}}
             domainPadding={{ x: 30 , y: 5}}
             >
                 <VictoryBar
@@ -125,7 +125,7 @@ class AnimatedBarMobile extends React.Component {
                 />
                 <VictoryAxis style={{
                   axis: {stroke: "rgba(255, 255, 255, 0.8)", weight: 10},
-                  tickLabels: {fill: "rgba(255, 255, 255, 0.8)", fontSize: 25, padding: 5}
+                  tickLabels: {fill: "rgba(255, 255, 255, 0.8)", fontSize: 30, padding: 5}
                 }}/>
                 <VictoryAxis dependentAxis style={{
                   axis: {stroke: "rgba(255, 255, 255, 0.8)", weight: 10},

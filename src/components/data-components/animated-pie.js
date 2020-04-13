@@ -115,7 +115,7 @@ class AnimatedPie extends React.Component {
                       textAnchor="middle" verticalAnchor="middle"
                       x={200} y={200}
                       text={`${Math.round(newProps.percent)}%`}
-                      style={{ fontSize: 45 }}
+                      style={{fontSize: 45, fill: "rgba(255, 255, 255, 0.7)"}}
                     />
                   );
                 }}
