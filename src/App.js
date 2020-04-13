@@ -8,15 +8,25 @@ import GalleryHome from './components/gallery-components/galleryhome';
 import DonateHome from './components/donate-components/donatehome';
 import ScrollToTop from './components/scrolltotop';
 import {HashRouter as Router, Route} from 'react-router-dom';
-
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 import './App.css';
 import './css/mobile.css';
 
+ReactGA.initialize('UA-163528672-1');
+
+const history = createBrowserHistory();
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}  onUpdate={() => window.scrollTo(0, 0)}>
+    <Router basename={process.env.PUBLIC_URL} history={history} onUpdate={() => window.scrollTo(0, 0)}>
       <div>
         <ScrollToTop>
           <Route path="/" exact component={Dev} />
