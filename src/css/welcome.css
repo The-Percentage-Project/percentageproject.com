@@ -1,0 +1,57 @@
+/* welcome page (left side) formatting*/
+.welcome-container{
+    color: rgba(255, 255, 255, 0.9);
+    /**background-image: linear-gradient(rgb(194, 202, 221), rgb(171, 178, 197), #8090B8);**/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position:relative;
+}
+
+.welcome-title h1{
+    text-align: left;
+    font-weight: lighter; 
+    letter-spacing: 15px;
+    font-size: 55px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.welcome-container .btn{
+    background-color: transparent; 
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.namecard{
+    position:absolute;
+    top:40vh;
+    left:0px;
+    width: 100%;
+    float: left;
+    margin-bottom: 10%;
+    padding-left: 20%;
+}
+
+
+#welcome .layer{
+    background-position: top right;
+    margin-top: -15%;
+    height: 260vh
+}
+
+
+
+#welcome-mobile {
+	display: none;
+	height: 320px;
+}
+
+#sponsorswelcome .layer{
+    background-position: top right;
+    margin-top: -15%;
+    height: 700vh
+}
+

@@ -1,18 +1,26 @@
-#some body does emacs on a Mac...
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+!/node_modules/react-dev-utils
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
 .DS_Store
-.DS_STORE
-*~
-\#*\#
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-#jekyll
-_site/
-_config.dev.yml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-## Environment normalization:
-/.bundle
-/vendor/bundle
-
-# these should all be checked in to normalize the environment:
-# Gemfile.lock, .ruby-version, .ruby-gemset
-
-*.code-workspace
+*.psd

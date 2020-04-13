@@ -1,0 +1,149 @@
+.blog-title h1{
+    text-align: left;
+    font-weight: lighter; 
+    letter-spacing: 7px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.blog-title h2{
+    text-align: left;
+    font-weight: lighter; 
+    letter-spacing: 5px;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.blog-title h3{
+    text-align: left;
+    font-weight: lighter; 
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.blog-post h3{
+    text-align: left;
+    font-weight: lighter; 
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 12px;
+    padding-top: 20px;
+}
+
+.blog-post p{
+    text-align: left;
+    font-weight: lighter; 
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 3px;
+}
+
+.blog-namecard{
+    position:absolute;
+    top:50vh;
+    left:0px;
+    width: 100%;
+    float: left;
+    margin-bottom: 10%;
+    padding-left: 20%;
+}
+
+.blog-container{
+    color: rgba(255, 255, 255, 0.9);
+    padding: 25%;
+}
+
+
+#blog-welcome .layer-bg{
+    height: 200vh;
+}
+
+#blog-welcome .layer{
+    z-index: 0;
+}
+
+
+.blog-featured-thumbnail a{
+    color: rgba(255, 255, 255, 0.5);
+    display:block;
+    position:relative;
+}
+
+.blog-featured-thumbnail a:hover{
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 3px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.blog-featured-description a{
+    color: rgba(255, 255, 255, 0.8);
+    display:block;
+    position:relative;
+}
+
+.blog-featured-description a:hover{
+    text-decoration: none;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#blogpost .layer{
+    z-index: -1;
+}
+
+#blogpost .layer-bg{
+    height: 2500vh;
+}
+
+#blogpost .layer1{
+    height: 400vh;
+    background-repeat: repeat-y;
+}
+
+#blogpostlist h4{
+    text-align: left;
+    font-weight: lighter; 
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#blogpostlist h5{
+    text-align: left;
+    font-weight: lighter; 
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#blogpostlist p{
+    text-align: left;
+    font-weight: lighter; 
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.blogpostdiv a:hover{
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 3px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1.0);
+    font-weight: normal;
+}
+
+.blogpostdiv a{
+    display:block;
+    text-decoration: none;
+}

@@ -1,0 +1,129 @@
+@media only screen and (max-width: 768px) {
+    /* */
+    .welcome-title h1{
+      font-size: 30px;
+      letter-spacing: 10px;
+    }
+
+    #welcome .layer-bg{
+        background-color: rgb(230, 230, 230)
+    }
+
+    #welcome .layer{
+        height: 200vh;
+        background-position: 80% 0%; 
+        background-size: cover;
+    }
+
+    .landing-container h2{
+        font-size: 30px;
+    }
+
+    .landing-container h3{
+        font-size: 22px; 
+    }
+
+    .landing-container h4{
+        font-size: 18px; 
+    }
+
+    .landing-container p{
+        font-size: 15px; 
+    }
+
+    .sidenav{
+      display: none;
+    }
+
+    .namecard{
+        padding-left: 5%;
+    }
+
+    /* #welcome .layer{
+        height: 120vh;
+        background-position: 80% 0%; 
+        background-size: cover;
+    } */
+
+    .banner{
+        z-index: 1;
+    }
+
+    #art-component .layer{
+        margin-top: 0%;
+        background-size: cover;
+        background-position: top center; 
+    }
+
+    #art-component a{
+        font-size: 30px;
+        width: auto;
+        font-weight: normal;
+    }
+
+    #art-component a.navlink{
+        width: 80vw;
+    }
+
+    #contact{
+        padding-bottom: 20vh;
+    }
+
+
+    .mobile-only{
+        display: block;
+    }
+
+    .web-only{
+        display: none;
+    }
+
+    .art-gallery{
+        background-position: center;
+    }
+
+    .carousel-caption{
+        display: none;
+    }
+
+    .blog-title{
+        max-width: 80%;
+    }
+
+    .blog-title h1{
+        letter-spacing: 6px;
+        font-size: 30px;
+    }
+
+    .blog-title h2{
+        letter-spacing: 4px;
+        font-size: 20px;
+    }
+
+    .blog-title h3{
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+
+    .blog-post h3{
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+    
+    .blog-post p{
+        font-weight: normal;
+    }
+
+    .blog-container{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .blog-namecard{
+        top: 40vh;
+    }
+
+    .blog-image{
+        max-width: 100%;
+    }
+  }

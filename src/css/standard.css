@@ -1,0 +1,183 @@
+.sidenav {
+  position: fixed;
+  z-index: 1;
+  top: 40vh;
+  left: 50px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.7);
+  display: block;
+}
+
+.sidenav a:hover {
+  text-decoration: none; 
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.sidenav a:active{
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#nopad{
+  padding: none;
+}
+
+
+.landing-container{
+  overflow: hidden;
+  position: relative;
+}
+
+.center-row{
+  text-align: center;
+}
+
+.right-row{
+  text-align: right;
+}
+
+.landing-container h1{
+	text-transform: none;
+	font-weight: 400;
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+
+.landing-container h2{
+    text-transform: none;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.landing-container h3{
+	text-transform: none;
+	font-weight: 100;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.landing-container h4{
+	text-transform: none;
+	font-weight: 100;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+.landing-container p{
+	text-transform: none;
+	font-weight: 150;
+  font-size: 20px;
+}
+
+.dark-container{
+  color: rgba(255, 255, 255, 0.9);
+  background-color:rgba(0, 0, 0, 1); 
+  padding: 5%;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+
+.light-container{
+  color: black;
+  background-color:rgb(230, 230, 230); 
+  padding: 5%;
+  padding-left: 20%;
+  padding-right:15%;
+  font-weight: 300;
+}
+
+.experience-container{
+  background-image: linear-gradient(rgb(245, 245, 245), rgb(179, 182, 189));
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:rgba(0, 0, 0, 0.9); 
+  padding: 5%;
+  padding-left: 20%;
+  padding-right:20%;
+  font-weight: 300;
+}
+
+.art-banner-container{
+  background-image: linear-gradient(rgb(36, 52, 88), rgb(8, 17, 44));
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.9); 
+  padding: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-weight: 300;
+}
+
+.project-card{
+  padding: 10%;
+  margin-bottom: 8%;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(192, 196, 199));
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0px;
+
+}
+
+.light-text{
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dark-text{
+  color:rgba(0, 0, 0, 0.9); 
+}
+
+.hello{
+  z-index: -1;
+}
+
+.mobile-only{
+  display: none;
+}
+
+
+.mobilemenu .btn{
+  background-color:black;
+}
+
+.mobilemenu .btn-secondary:focus{
+  background-color:black;
+}
+.mobilemenu .btn-secondary:hover{
+  background-color:black;
+}
+
+.mobilemenu a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  color: black;
+  display: block;
+}
+
+.mobilemenu a:hover {
+  text-decoration: none; 
+  font-size: 22px;
+  color: black;
+}
+
+.mobilemenu a:active{
+  font-size: 22px;
+  color: black;
+}

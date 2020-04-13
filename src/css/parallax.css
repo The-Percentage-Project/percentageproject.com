@@ -1,0 +1,30 @@
+body {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+#hero {
+	height: 100vh;
+	overflow: hidden;
+    position: relative;
+    
+}
+#content {
+	background-color: #130d0a;
+}
+
+.layer {
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 140vh;
+	position: fixed;
+}
+
+
+
+
+
+/* Art Parallax */

@@ -1,0 +1,63 @@
+[
+    {
+        "data" : [{ "x": "Prefer Not to Say", "y":11 },
+            { "x": "Other", "y": 24 },
+            { "x": "White", "y": 5 },
+            { "x": "Hawaiian / Pacific Islander", "y": 100 },
+            { "x": "Mixed", "y": 20 },
+            { "x": "African American", "y": 77 },
+            { "x": "Asian", "y": 9 },
+            { "x": "American Indian / Alaskan", "y": 100 }],
+        "colors": [[0, 25, 94], [0, 128, 214]],
+        "text": "Someone has once claimed to me that my race has unfairly contributed to my acceptance to my university", 
+        "height": 400
+    }, 
+    {
+        "data" : [{ "x": "Male", "y": 52 },
+            { "x": "Female", "y": 25 },
+            { "x": "Non-binary", "y": 42 }],
+        "colors": [[0, 25, 94], [0, 128, 214]],
+        "text": "I generally feel comfortable asking questions during lecture",
+        "height": 200
+    },
+    {
+        "data" : [{ "x": "Male", "y": 50 },
+            { "x": "Female", "y": 71 }],
+        "colors": [[0, 25, 94], [0, 128, 214]],
+        "text": "In a group project, my opinion is as respected as that of other group members", 
+        "height": 150
+    }, 
+    {
+        "data" : [{ "x": "Prefer Not To Say", "y": 13 },
+            { "x": "Not Hispanic/Latino", "y": 17 },
+            { "x": "Hispanic/Latino", "y": 32 }],
+        "colors": [[0, 25, 94], [0, 128, 214]],
+        "text": "I would feel less intimidated in a class taught by a professor of my similar racial and/or ethnic background as compared to others",
+        "height": 200
+    }, 
+    {
+        "data" : [{ "x": "Prefer Not To Say", "y": 57 },
+            { "x": "Not Low-Income Student", "y": 42 },
+            { "x": "Low-Income Student", "y": 44 }],
+        "colors": [[0, 25, 94], [0, 128, 214]],
+        "text": "I feel intimidated studying Computer Science and related fields",
+        "height": 200
+    }, 
+    {
+        "data" : [{ "x": "Prefer Not To Say", "y": 19 },
+            { "x": "Not First Generation", "y": 35 },
+            { "x": "First Generation", "y": 22 }],
+        "colors": [[0, 25, 94], [0, 128, 214]],
+        "text": "I generally feel comfortable asking questions in TA hours",
+        "height": 200
+    }, 
+    {
+        "data" : [{ "x": "Prefer Not To Say", "y": 31 },
+            { "x": "non-LGBTQ+", "y": 19 },
+            { "x": "LGBTQ+", "y": 36 }],
+        "colors": [[0, 25, 94], [0, 128, 214]],
+        "text": "Someone has commented on my identity in a manner that made me feel uncomfortable, angry, or insecure",
+        "height": 200
+    }
+
+]
