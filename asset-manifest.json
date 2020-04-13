@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed92f37a.chunk.css",
+    "main.js": "/static/js/main.8c5c9217.chunk.js",
+    "main.js.map": "/static/js/main.8c5c9217.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.783779e9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.783779e9.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.b538d5f1.chunk.js": "/static/js/2.b538d5f1.chunk.js",
+    "static/js/2.b538d5f1.chunk.js.map": "/static/js/2.b538d5f1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2c75021c12c04f6999f7c54ccde1b66c.js": "/precache-manifest.2c75021c12c04f6999f7c54ccde1b66c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.ed92f37a.chunk.css.map": "/static/css/main.ed92f37a.chunk.css.map",
+    "static/js/2.b538d5f1.chunk.js.LICENSE": "/static/js/2.b538d5f1.chunk.js.LICENSE",
+    "static/media/datawelcome-mobile.svg": "/static/media/datawelcome-mobile.6d453b5e.svg",
+    "static/media/datawelcome.svg": "/static/media/datawelcome.a44eca88.svg",
+    "static/media/datawelcome1.svg": "/static/media/datawelcome1.678f9ebb.svg",
+    "static/media/dp_header.JPG": "/static/media/dp_header.d2b24388.JPG",
+    "static/media/duke_header.JPG": "/static/media/duke_header.7143b9f7.JPG",
+    "static/media/logo-insta.png": "/static/media/logo-insta.30fa0886.png",
+    "static/media/logo-twitter.png": "/static/media/logo-twitter.49952e83.png",
+    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg",
+    "static/media/menu-logo.png": "/static/media/menu-logo.b4f35a59.png",
+    "static/media/paypal_transparent.png": "/static/media/paypal_transparent.c3df2b78.png",
+    "static/media/sponsorswelcome.svg": "/static/media/sponsorswelcome.a55cc077.svg",
+    "static/media/welcome-mobile.svg": "/static/media/welcome-mobile.446e138b.svg",
+    "static/media/welcome.svg": "/static/media/welcome.da6ef726.svg",
+    "static/media/welcome1.svg": "/static/media/welcome1.959b2f09.svg",
+    "static/media/welcome2.svg": "/static/media/welcome2.6ccf4079.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.783779e9.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.b538d5f1.chunk.js",
+    "static/css/main.ed92f37a.chunk.css",
+    "static/js/main.8c5c9217.chunk.js"
+  ]
+}
