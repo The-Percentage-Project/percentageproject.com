@@ -39,13 +39,13 @@ class DataMethods extends Component {
 
           <h4><b>Data Analysis</b></h4>
           <ol>
-              <li>Surveymonkey allows CSV downloads for all responses. We merge all responses from all school surveys for a conglomerate analysis.</li>
+              <li>Surveymonkey allows CSV downloads for all responses. We merge all responses from all school surveys for a aggregate analysis.</li>
               <li>We use an automated script to calculate percentages from the number of responses/total responses for each identification: Gender, Race, Ethnicity, Religion, LGBTQ+, Disability, First Generation Student, Low Income Student.</li>
               <li>The automated script also calculates significance based on our survey population.</li>
-              <li>A report with percentages for each question and demographic can be found on the Data page. We will publish a full annual report on the conglomerate data (no school-specific data) with further data analysis and insights, which will be made available on this website.</li>
+              <li>A report with percentages for each question and demographic can be found on the Data page. We will publish a full annual report on the aggregate data (no school-specific data) with further data analysis and insights, which will be made available on this website.</li>
           </ol>
 
-          * Any surveys that did not meet the above criteria were not included in the conglomerate analysis. If any additional non-individualized links were used in collection, we used Surveymonkey’s collector filter feature to remove those responses from the analysis.
+          * Any surveys that did not meet the above criteria were not included in the aggregate analysis. If any additional non-individualized links were used in collection, we used Surveymonkey’s collector filter feature to remove those responses from the analysis.
           </p>
         </Col>]
     
