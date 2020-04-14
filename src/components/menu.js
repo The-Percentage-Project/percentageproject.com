@@ -20,10 +20,10 @@ class Menu extends Component {
             <Link class= "navlink" activeClass="active" to="to-gallery" href= "" spy={true} smooth={true} duration= {800}> Gallery</Link>
           </NavItem>
           <a href={process.env.PUBLIC_URL + "/#/people"}>People</a>
-          <a href={process.env.PUBLIC_URL + "/"}>Disclosures</a>
+          <a href={process.env.PUBLIC_URL + "/#/disclosures"} target = "_blank">Disclosures</a>
           <a href={process.env.PUBLIC_URL + "/#/data"}>Data</a>
           <NavItem>
-            <Link class= "navlink" activeClass="active" to="support" href= "" spy={true} smooth={true} duration= {800}> Support</Link>
+            <Link class= "navlink" activeClass="active" to="support" href= "" spy={true} smooth={true} duration= {800}> Support Us</Link>
           </NavItem>
           <NavItem>
             <Link class= "navlink" activeClass="active" to="contact" href= "" spy={true} smooth={true} duration= {800}> Contact</Link>

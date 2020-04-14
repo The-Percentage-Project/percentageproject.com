@@ -12,8 +12,9 @@ class TestData extends Component {
     const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     var data = [
         {text: "Percent of Students Who Feel That Minority Organizations are Still Needed Today", val: 81},
-        {text: "Percent of Low Income Students Who Feel Intimidated to Study Computer Science", val: 57}, 
-        {text: "Percent of Women Who Feel Comfortable Asking Questions During Lecture", val: 23},    
+        {text: "Percent of Students Who Feel Comfortable Asking Questions During Lecture", val: 38},
+        {text: "Percent of Students Who Feel Intimidated Studying Computer Science and Related fields", val: 45}, 
+        {text: "Percent of Students Who Have Benn/Felt Judged or Micro-Aggressed by Someone ", val: 33},    
     ]
 
     return (      

@@ -22,37 +22,37 @@ class JoinContent extends Component {
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Stephanie_Tang.jpg' width = '200px'/>
           <h3>Stephanie Tang</h3>
-          <h4>President</h4> 
+          <h4>President<br/><i>Board President</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Keren_Fuentes.png' width = '200px'/>
           <h3>Keren Fuentes</h3>
-          <h4>Director of Technology</h4> 
+          <h4>Director of Technology<br/><i>Board Member</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jake_Bass.png' width = '200px'/>
           <h3>Jake Bass</h3>
-          <h4>Director of Operations</h4> 
+          <h4>Director of Operations<br/><i>Board Secretary</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Emma_Suarez.png' width = '200px'/>
           <h3>Emmanuel Suarez</h3>
-          <h4>Board of Finance, Treasurer</h4> 
+          <h4>Director of Finance<br/><i>Board Treasurer</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Melinda_Hu.png' width = '200px'/>
           <h3>Melinda Hu</h3>
-          <h4>Director of Marketing</h4> 
+          <h4>Director of Marketing<br/><i>Board Member</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Lucia_Huo.jpeg' width = '200px'/>
           <h3>Lucia Huo</h3>
-          <h4>Director of Recruitment</h4> 
+          <h4>Director of Recruitment<br/><i>Board Member</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Megan_Paik.png' width = '200px'/>
           <h3>Megan Paik</h3>
-          <h4>Director of Program Development</h4> 
+          <h4>Director of Program Development<br/><i>Board Member</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jill_Pesce.png' width = '200px'/>

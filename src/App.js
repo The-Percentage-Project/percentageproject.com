@@ -6,6 +6,7 @@ import SponsorsHome from './components/sponsors-components/sponsorshome';
 import JoinHome from './components/join-components/joinhome';
 import GalleryHome from './components/gallery-components/galleryhome';
 import DonateHome from './components/donate-components/donatehome';
+import DisclosuresHome from './components/disclosures-components/disclosureshome';
 import ScrollToTop from './components/scrolltotop';
 import {HashRouter as Router, Route} from 'react-router-dom';
 import ReactGA from 'react-ga';
@@ -31,7 +32,7 @@ function App() {
         <ScrollToTop>
           <Route path="/" exact component={Dev} />
           <Route path="/data" component={DataHome} />
-          <Route path="/disclosures" component={SponsorsHome} />
+          <Route path="/disclosures" component={DisclosuresHome} />
           <Route path="/people" component={JoinHome} />
           <Route path="/gallery" component={GalleryHome} />
           <Route path="/donate" component={DonateHome} />

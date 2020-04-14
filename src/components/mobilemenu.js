@@ -27,14 +27,17 @@ const MobileMenu= (props) => {
             <a href={process.env.PUBLIC_URL + "/#/people"}>People</a>
           </DropdownItem>
           <DropdownItem>
-            <a href={process.env.PUBLIC_URL + "/"}>Disclosures</a>
+            <a href={process.env.PUBLIC_URL + "/#/disclosures"} target = "_blank">Disclosures</a>
           </DropdownItem>
           <DropdownItem>
             <a href={process.env.PUBLIC_URL + "/#/data"}>Data</a>
           </DropdownItem>
           <DropdownItem>
+            <Link class= "navlink" activeClass="active" to="support" href= "" spy={true} smooth={true} duration= {800}> Support Us</Link>
+          </DropdownItem>
+          <DropdownItem>
             <Link class= "navlink" activeClass="active" to="contact" href= "" spy={true} smooth={true} duration= {800}> Contact</Link>
-        </DropdownItem>
+          </DropdownItem>
       </DropdownMenu>
     </Dropdown>
     </div>
