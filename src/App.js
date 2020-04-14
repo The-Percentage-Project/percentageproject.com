@@ -14,7 +14,7 @@ import { createBrowserHistory } from 'history';
 import './App.css';
 import './css/mobile.css';
 
-ReactGA.initialize('UA-163528672-1');
+ReactGA.initialize('UA-163539952-1');
 
 const history = createBrowserHistory();
 
