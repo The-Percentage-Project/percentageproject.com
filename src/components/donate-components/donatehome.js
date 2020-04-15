@@ -42,9 +42,9 @@ class DonateHome extends Component {
                     currently pending review from the IRS. If this form is accepted 
                     by the 17th of March 2022 all of your contributions will be 
                     deductible on your taxes. Although we meet all the requirements 
-                    to be recognized as a 501(3c), we can not offer any guarantees 
+                    to be recognized as a 501(c)(3), we can not offer any guarantees 
                     about when this will occur. You will still be provided a written
-                    acknowledgement of your donation in preparation for 501(3c) status. 
+                    acknowledgement of your donation in preparation for 501(c)(3) status. 
                     We will also promptly notify any donors of any updates to our status 
                     so you can file your taxes correctly.<br/><br/>
                     We also want to recognize that many Americans are facing economic 
