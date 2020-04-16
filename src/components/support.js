@@ -28,7 +28,7 @@ class HomeSupport extends Component {
             </div>
         </div>
         <Row>
-            <Col md = {2}>
+            <Col md = {1}>
             </Col>
             <Col md = {5}>
             <a href="https://www.etsy.com/shop/ThePercentageProject?fbclid=IwAR1efVJjzQFaYq_tDf-Lkxm4OSfVFW0elJ1C8MnXsHDZLhlLycbL5NlrSCw" target ="_blank">
@@ -75,7 +75,7 @@ class HomeSupport extends Component {
             </div>
         </div>
         <Row>
-            <Col md = {2}></Col>
+            <Col md = {1}></Col>
             <Col md = {5}>
             <a href="https://www.thedp.com/article/2018/04/wics-women-computer-science-percent-project-social-media-upenn-penn-philadelphia" target="_blank">
                 <Button variant="outline-light" style={{marginTop: "20px", marginBottom: "20px", padding: "5%"}}> 

@@ -20,7 +20,7 @@ class DataReport extends Component {
           <h4>
             Interested in learning more? Click here for the full report. 
           </h4>
-          <a href={process.env.PUBLIC_URL + "/"}>
+          <a href="https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Other/Informational%20Data%20Report%20Spring%202020.pdf" target="_blank">
             <Button variant="outline-light" style={{marginTop: "20px", marginBottom: "20px"}}> 
             <h4>View Full Report</h4>
             </Button>

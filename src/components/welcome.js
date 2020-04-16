@@ -37,7 +37,7 @@ class Welcome extends Component {
               <Row>
                 <Col md={6} className= "welcome-title">
                 <Fade bottom duration= {5000}>
-                  <h1>THE PERCENTAGE PROJECT (v7)</h1>
+                  <h1>THE PERCENTAGE PROJECT</h1>
                 </Fade>
                 </Col>
               </Row>
@@ -50,7 +50,7 @@ class Welcome extends Component {
               <Row>
                 <Col md={6} className= "welcome-title">
                 <Fade bottom duration= {5000}>
-                  <h1>THE PERCENTAGE PROJECT (v7)</h1>
+                  <h1>THE PERCENTAGE PROJECT</h1>
                 </Fade>
                 </Col>
               </Row>

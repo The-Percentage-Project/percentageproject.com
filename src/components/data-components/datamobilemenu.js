@@ -8,10 +8,10 @@ const DataMobileMenu= (props) => {
   const toggle = () => setDropdownOpen(prevState => !prevState);
 
   return (
-    <div className="mobile-only mobilemenu" style={{position: "fixed", margins: "auto 0", padding: "5%", zIndex:"3"}}>
+    <div className="mobile-only mobilemenu" style={{position: "fixed", margins: "auto 0", padding: "3%", zIndex:"3"}}>
     <Dropdown isOpen={dropdownOpen} toggle={toggle}>
       <DropdownToggle>
-        <img src= {require("../../public/static/menu-logo.png")} style={{maxHeight: "10vw", padding: "2vw"}}></img>
+        <img src= {require("../../public/static/menu-logo.png")} style={{maxHeight: "9vw", padding: "2vw"}}></img>
         </DropdownToggle>
       <DropdownMenu>
       <DropdownItem>

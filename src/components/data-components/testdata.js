@@ -14,7 +14,7 @@ class TestData extends Component {
         {text: "Percent of Students Who Feel That Minority Organizations are Still Needed Today", val: 81},
         {text: "Percent of Students Who Feel Comfortable Asking Questions During Lecture", val: 38},
         {text: "Percent of Students Who Feel Intimidated Studying Computer Science and Related fields", val: 45}, 
-        {text: "Percent of Students Who Have Benn/Felt Judged or Micro-Aggressed by Someone ", val: 33},    
+        {text: "Percent of Students Who Have Been/Felt Judged or Micro-Aggressed by Someone ", val: 33},    
     ]
 
     return (      

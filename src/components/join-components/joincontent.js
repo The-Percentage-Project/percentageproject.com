@@ -40,7 +40,7 @@ class JoinContent extends Component {
           <h4>Director of Finance<br/><i>Board Treasurer</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Melinda_Hu.png' width = '200px'/>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Melinda_Hu.jpg' width = '200px'/>
           <h3>Melinda Hu</h3>
           <h4>Director of Marketing<br/><i>Board Member</i></h4> 
           </Col>
@@ -68,6 +68,16 @@ class JoinContent extends Component {
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
           <h3>Gabriel Ting</h3>
           <h4>Software Engineer</h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Tierra_Sharae.png' width = '200px'/>
+          <h3>Tierra Sharae</h3>
+          <h4>Operations</h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jordan_Lei.png' width = '200px'/>
+          <h3>Jordan Lei</h3>
+          <h4>Lead Web Developer</h4> 
           </Col>
           </Row>
         </Col>]
@@ -129,7 +139,7 @@ var innerContent2=[
     <h4>University of Pennsylvania</h4> 
     </Col>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus%20Director/Luna%20Ito-Fisher.jpg' width = '200px'/>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus%20Director/Luna_Ito-Fisher.jpg' width = '200px'/>
     <h3>Luna Ito-Fisher</h3>
     <h4>Brown University</h4> 
     </Col>
