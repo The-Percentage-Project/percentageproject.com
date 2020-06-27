@@ -28,8 +28,22 @@ class DisclosuresHome extends Component {
               </Fade> 
               <Row style = {{paddingTop: "5%"}}>
                 <Col md = {12}>
+                  <div>
+                  <a href="https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Other/1023.pdf" target="_blank">
+                    <Button variant="outline-light" style={{marginTop: "20px", marginBottom: "20px"}}> 
+                    <h4>1023</h4>
+                    </Button>
+                  </a>
+                  </div>
+                  <div>
+                  <a href="https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Other/990-N.pdf" target="_blank">
+                    <Button variant="outline-light" style={{marginTop: "20px", marginBottom: "20px"}}> 
+                    <h4>990-N</h4>
+                    </Button>
+                  </a>
+                  </div>
                   <p>
-                    Please contact the Board Secretary Jacob Bass at jake@percentageproject.com for any records requests.
+                    Please contact the Board Secretary Jacob Bass at jake@percentageproject.com for any additional records requests.
                   </p>
                 </Col>
               </Row>

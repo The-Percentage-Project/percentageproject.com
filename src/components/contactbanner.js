@@ -35,7 +35,9 @@ class ContactBanner extends Component {
           </Col>
           <Col md={6}>
             <p>
-            Feel free to get in touch with us through social or at  hello@percentageproject.com
+            Feel free to get in touch with us through social or at  hello@percentageproject.com 
+            <br/><br/>
+            Copyright Percentage Project Inc. 2020, a 501(c)(3) nonprofit.
             </p>
           </Col>
         </Row>
