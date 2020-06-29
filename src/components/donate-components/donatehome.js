@@ -30,23 +30,15 @@ class DonateHome extends Component {
                 <Col md = {6}>
                   <p>
                     Dear Potential Donor,<br/><br/>
-                    We at The Percentage Project are incredibly thankful 
-                    that you are considering donating to us. Because we are 
-                    new, we find it of the utmost importance to be clear about 
-                    our current status and what it means for your donation. 
-                    The Percentage Project Inc. is a not-for-profit organization 
-                    registered in the state of New York. This means that you can 
-                    be rest assured that the entire amount of your donation will go 
-                    toward supporting our mission. We are seeking tax-exempt status. 
-                    We filed form 1023 on the 15th of March of 2020, which is 
-                    currently pending review from the IRS. If this form is accepted 
-                    by the 17th of March 2022 all of your contributions will be 
-                    deductible on your taxes. Although we meet all the requirements 
-                    to be recognized as a 501(c)(3), we can not offer any guarantees 
-                    about when this will occur. You will still be provided a written
-                    acknowledgement of your donation in preparation for 501(c)(3) status. 
-                    We will also promptly notify any donors of any updates to our status 
-                    so you can file your taxes correctly.<br/><br/>
+                    We at The Percentage Project are incredibly thankful that you are 
+                    considering donating to us. 
+                    Because we are new, we find it of the utmost importance to be clear 
+                    about our current status and what it means for your donation. 
+                    The Percentage Project Inc. is a 501(c)(3) not-for-profit organization 
+                    registered in the state of New York. Our 990's and 1023 are available{" "}
+                    <a href = {process.env.PUBLIC_URL + "/#/disclosures"}>here.</a>
+
+                    <br/><br/>
                     We also want to recognize that many Americans are facing economic 
                     hardships due to the current COVID-19 outbreak. We do not ask for 
                     donations lightly and are thankful for any help you are willing to 
