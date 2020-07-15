@@ -29,6 +29,13 @@ class DisclosuresHome extends Component {
               <Row style = {{paddingTop: "5%"}}>
                 <Col md = {12}>
                   <div>
+                  <a href="https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Other/privacy_statement.pdf" target="_blank">
+                    <Button variant="outline-light" style={{marginTop: "20px", marginBottom: "20px"}}>
+                    <h4>Privacy Statement</h4>
+                    </Button>
+                  </a>
+                  </div>
+                  <div>
                   <a href="https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Other/1023.pdf" target="_blank">
                     <Button variant="outline-light" style={{marginTop: "20px", marginBottom: "20px"}}> 
                     <h4>1023</h4>
