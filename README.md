@@ -1,7 +1,7 @@
 ## Updating the website
 
 - Fork the repo and create a branch to write your updates
-  - Set your upstream to be the master branch in the original repo 
+  - Set your upstream to be the master branch in the original repo: https://devconnected.com/how-to-set-upstream-branch-on-git/
 - Push your changes to your branch and open a pull request
 - Merge your changes only after they have been reviewed by at least one person in the team
 - After the changes are merged, deploy updates by running `npm run deploy` on the % Project Repo (Not your forked repo)
