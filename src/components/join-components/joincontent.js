@@ -31,7 +31,7 @@ class JoinContent extends Component {
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jake_Bass.png' width = '200px'/>
-          <h3>Jake Bass</h3>
+          <h3>Jacob Bass</h3>
           <h4>Director of Operations<br/><i>Board Secretary</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
@@ -47,12 +47,18 @@ class JoinContent extends Component {
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Lucia_Huo.jpeg' width = '200px'/>
           <h3>Lucia Huo</h3>
-          <h4>Director of Recruitment<br/><i>Board Member</i></h4> 
+          <h4>Director of Outreach<br/><i>Board Member</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Megan_Paik.png' width = '200px'/>
           <h3>Megan Paik</h3>
           <h4>Director of Program Development<br/><i>Board Member</i></h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+            {/* need to change image */}
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Megan_Paik.png' width = '200px'/>
+          <h3>Yossy Montecinos</h3>
+          <h4>Director of Finance<br/><i>Board Member</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
           <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jill_Pesce.png' width = '200px'/>
@@ -70,14 +76,46 @@ class JoinContent extends Component {
           <h4>Software Engineer</h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Tierra_Sharae.png' width = '200px'/>
-          <h3>Tierra Sharae</h3>
-          <h4>Operations</h4> 
+            {/* need to change image */}
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
+          <h3>Luna Ito-Fisher</h3>
+          <h4>Associate Program Lead & Campus Director</h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jordan_Lei.png' width = '200px'/>
-          <h3>Jordan Lei</h3>
+            {/* need to change image */}
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
+          <h3>Weizhen Sheng</h3>
+          <h4>Outreach Associate</h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+            {/* need to change image */}
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
+          <h3>Misty Liao</h3>
+          <h4>Corporate Relations Lead</h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+            {/* need to change image */}
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
+          <h3>Hyewon Lee</h3>
+          <h4></h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+            {/* need to change image */}
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Tierra_Sharae.png' width = '200px'/>
+          <h3>Ziyi Yan</h3>
           <h4>Lead Web Developer</h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+            {/* need to change image */}
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jordan_Lei.png' width = '200px'/>
+          <h3>Saron Mosazghi</h3>
+          <h4>Community Marketing Coordinator</h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+            {/* need to change image */}
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jordan_Lei.png' width = '200px'/>
+          <h3>Geshna Aggarwal</h3>
+          <h4>Digital Marketing Coordinator</h4> 
           </Col>
           </Row>
         </Col>]
