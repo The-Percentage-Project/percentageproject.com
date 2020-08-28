@@ -55,8 +55,7 @@ class JoinContent extends Component {
           <h4>Director of Program Development<br/><i>Board Member</i></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-            {/* need to change image */}
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Megan_Paik.png' width = '200px'/>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Yossy_Montecinos.jpg' width = '200px'/>
           <h3>Yossy Montecinos</h3>
           <h4>Director of Finance<br/><i>Board Member</i></h4> 
           </Col>
@@ -76,32 +75,27 @@ class JoinContent extends Component {
           <h4>Software Engineer</h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-            {/* need to change image */}
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Luna_Ito-Fisher.jpg' width = '200px'/>
           <h3>Luna Ito-Fisher</h3>
           <h4>Associate Program Lead & Campus Director</h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-            {/* need to change image */}
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Weizhen_Sheng.jpg' width = '200px'/>
           <h3>Weizhen Sheng</h3>
           <h4>Outreach Associate</h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-            {/* need to change image */}
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Misty_Liao.jpeg' width = '200px'/>
           <h3>Misty Liao</h3>
           <h4>Corporate Relations Lead</h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-            {/* need to change image */}
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Gabriel_Ting.png' width = '200px'/>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Hyewon_Lee.jpg' width = '200px'/>
           <h3>Hyewon Lee</h3>
           <h4></h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-            {/* need to change image */}
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Tierra_Sharae.png' width = '200px'/>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Ziyi_Yan.jpg' width = '200px'/>
           <h3>Ziyi Yan</h3>
           <h4>Lead Web Developer</h4> 
           </Col>
@@ -112,10 +106,14 @@ class JoinContent extends Component {
           <h4>Community Marketing Coordinator</h4> 
           </Col>
           <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-            {/* need to change image */}
-          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Jordan_Lei.png' width = '200px'/>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Geshna_Aggarwal.jpg' width = '200px'/>
           <h3>Geshna Aggarwal</h3>
           <h4>Digital Marketing Coordinator</h4> 
+          </Col>
+          <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+          <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Diya_Singh.jpg' width = '200px'/>
+          <h3>Diya Singh</h3>
+          <h4>Fundraising Chair</h4> 
           </Col>
           </Row>
         </Col>]
