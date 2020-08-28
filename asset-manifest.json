@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a2d96fe.chunk.css",
-    "main.js": "/static/js/main.a5a30b2c.chunk.js",
-    "main.js.map": "/static/js/main.a5a30b2c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.34829026.chunk.js": "/static/js/2.34829026.chunk.js",
-    "static/js/2.34829026.chunk.js.map": "/static/js/2.34829026.chunk.js.map",
+    "main.css": "/static/css/main.d0cdb121.chunk.css",
+    "main.js": "/static/js/main.f134e3df.chunk.js",
+    "main.js.map": "/static/js/main.f134e3df.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.783779e9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.783779e9.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.b2a18cc5.chunk.js": "/static/js/2.b2a18cc5.chunk.js",
+    "static/js/2.b2a18cc5.chunk.js.map": "/static/js/2.b2a18cc5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f643b601d89f075039347c3521a4c269.js": "/precache-manifest.f643b601d89f075039347c3521a4c269.js",
+    "precache-manifest.979ce6079f432bc179b770bed2bcdeee.js": "/precache-manifest.979ce6079f432bc179b770bed2bcdeee.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.6a2d96fe.chunk.css.map": "/static/css/main.6a2d96fe.chunk.css.map",
-    "static/js/2.34829026.chunk.js.LICENSE.txt": "/static/js/2.34829026.chunk.js.LICENSE.txt",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.d0cdb121.chunk.css.map": "/static/css/main.d0cdb121.chunk.css.map",
+    "static/js/2.b2a18cc5.chunk.js.LICENSE": "/static/js/2.b2a18cc5.chunk.js.LICENSE",
     "static/media/datawelcome-mobile.svg": "/static/media/datawelcome-mobile.36f63831.svg",
     "static/media/datawelcome.svg": "/static/media/datawelcome.6b9a6c61.svg",
     "static/media/datawelcome1.svg": "/static/media/datawelcome1.89d33874.svg",
@@ -31,10 +31,10 @@
     "static/media/welcome2.svg": "/static/media/welcome2.81a25035.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3374ac37.js",
-    "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.34829026.chunk.js",
-    "static/css/main.6a2d96fe.chunk.css",
-    "static/js/main.a5a30b2c.chunk.js"
+    "static/js/runtime-main.783779e9.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.b2a18cc5.chunk.js",
+    "static/css/main.d0cdb121.chunk.css",
+    "static/js/main.f134e3df.chunk.js"
   ]
 }
