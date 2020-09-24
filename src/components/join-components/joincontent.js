@@ -149,6 +149,42 @@ var innerContent3=[
   </Col>
 ]
 
+var innerContent4=[
+  <Col md={4}>
+  <Fade bottom duration={5000}>
+    <div>
+      <h2>
+      Campus Directors 19-20
+      </h2>
+    </div>
+  </Fade>
+  </Col>,
+  <Col md={1}></Col>,
+  <Col md={7}>
+    <Row>
+      <Col md = {6}>
+        <h3>University of Pennsylvania</h3>
+        <h4>Catherine Qiao</h4>
+        <h4>Lucia Huo</h4>
+        <br></br>
+      </Col>
+      <Col md = {6}>
+        <h3>Brown University</h3>
+        <h4>Luna Ito-Fisher</h4>
+      </Col>
+      <Col md = {6}>
+        <h3>Duke University</h3>
+        <h4>Kassen Qian</h4>
+        <h4>Shruthi Kumar</h4>
+      </Col>
+      <Col md = {6}>
+        <h3>Rutgers University</h3>
+        <h4>Madhu Sivaraj</h4>
+      </Col>
+    </Row>
+  </Col>
+]
+
 var innerContent2=[
   <Col md={2}>
   <Fade bottom duration={5000}>
@@ -167,7 +203,7 @@ var innerContent2=[
       utilize our resources to provide their peers a platform to be heard and to 
       advocate for their community.
     </p>
-    <Row>
+    {/* <Row>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
     <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus%20Director/Catherine_Qiao.jpg' width = '200px'/>
     <h3>Catherine Qiao</h3>
@@ -198,7 +234,7 @@ var innerContent2=[
     <h3>Madhu Sivaraj</h3>
     <h4>Rutgers University</h4> 
     </Col>
-    </Row>
+    </Row> */}
   </Col>]
     
       
@@ -231,6 +267,21 @@ var innerContent2=[
         <Row style={{paddingTop: "50px"}}>
           <div className= "banner">
             {innerContent2}
+          </div>
+        </Row>
+        </div>
+        </section>
+
+        <section id="joindirectors-19">
+        <div className= "web-only">
+        <Row style={{paddingTop: "50px"}}>
+            {innerContent4}
+        </Row>
+        </div>
+        <div className= "mobile-only">
+        <Row style={{paddingTop: "50px"}}>
+          <div className= "banner">
+            {innerContent4}
           </div>
         </Row>
         </div>
