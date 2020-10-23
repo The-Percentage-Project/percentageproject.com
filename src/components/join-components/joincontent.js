@@ -154,7 +154,7 @@ var innerContent4=[
   <Fade bottom duration={5000}>
     <div>
       <h2>
-      Campus Directors 19-20
+      Campus Directors 2019-2020
       </h2>
     </div>
   </Fade>
