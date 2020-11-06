@@ -149,6 +149,42 @@ var innerContent3=[
   </Col>
 ]
 
+var innerContent4=[
+  <Col md={4}>
+  <Fade bottom duration={5000}>
+    <div>
+      <h2>
+      Campus Directors 2019-2020
+      </h2>
+    </div>
+  </Fade>
+  </Col>,
+  <Col md={1}></Col>,
+  <Col md={7}>
+    <Row>
+      <Col md = {6}>
+        <h3>University of Pennsylvania</h3>
+        <h4>Catherine Qiao</h4>
+        <h4>Lucia Huo</h4>
+        <br></br>
+      </Col>
+      <Col md = {6}>
+        <h3>Brown University</h3>
+        <h4>Luna Ito-Fisher</h4>
+      </Col>
+      <Col md = {6}>
+        <h3>Duke University</h3>
+        <h4>Kassen Qian</h4>
+        <h4>Shruthi Kumar</h4>
+      </Col>
+      <Col md = {6}>
+        <h3>Rutgers University</h3>
+        <h4>Madhu Sivaraj</h4>
+      </Col>
+    </Row>
+  </Col>
+]
+
 var innerContent2=[
   <Col md={2}>
   <Fade bottom duration={5000}>
@@ -169,13 +205,8 @@ var innerContent2=[
     </p>
     <Row>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus%20Director/Catherine_Qiao.jpg' width = '200px'/>
-    <h3>Catherine Qiao</h3>
-    <h4>University of Pennsylvania</h4> 
-    </Col>
-    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Team/Lucia_Huo.jpeg' width = '200px'/>
-    <h3>Lucia Huo</h3>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Carly_Ryan.png' width = '200px'/>
+    <h3>Carly Ryan</h3>
     <h4>University of Pennsylvania</h4> 
     </Col>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
@@ -184,19 +215,59 @@ var innerContent2=[
     <h4>Brown University</h4> 
     </Col>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus%20Director/Kassen_Qian.jpg' width = '200px'/>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Kassen_Qian.jpg' width = '200px'/>
     <h3>Kassen Qian </h3>
     <h4>Duke University</h4> 
     </Col>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus%20Director/Shruthi_Kumar.jpg' width = '200px'/>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Shruthi_Kumar.jpg' width = '200px'/>
     <h3>Shruthi Kumar</h3>
     <h4>Duke University</h4> 
     </Col>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
-    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus%20Director/Madhu_Sivaraj.jpg' width = '200px'/>
-    <h3>Madhu Sivaraj</h3>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Nikita_Sharma.jpg' width = '200px'/>
+    <h3>Nikita Sharma</h3>
     <h4>Rutgers University</h4> 
+    </Col>
+    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Jarelle_Franchela_Boac.jpg' width = '200px'/>
+    <h3>Jarelle Franchela Boac</h3>
+    <h4>Rutgers University</h4> 
+    </Col>
+    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Anna_Zhang.jpg' width = '200px'/>
+    <h3>Anna Zhang</h3>
+    <h4>Vanderbilt University</h4> 
+    </Col>
+    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Gabriel_Ting.jpg' width = '200px'/>
+    <h3>Gabriel Ting</h3>
+    <h4>Vanderbilt University</h4> 
+    </Col>
+    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Melissa_Chen.jpg' width = '200px'/>
+    <h3>Melissa Chen</h3>
+    <h4>University of Illinois at Urbana-Champaign</h4> 
+    </Col>
+    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Emma_Sargent.jpg' width = '200px'/>
+    <h3>Emma Sargent</h3>
+    <h4>New York University</h4> 
+    </Col>
+    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Melissa_Kwan.JPG' width = '200px'/>
+    <h3>Melissa kwon</h3>
+    <h4>Harvard University</h4> 
+    </Col>
+    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Uma_Patel.jpg' width = '200px'/>
+    <h3>Uma Patel</h3>
+    <h4>Drexel University</h4> 
+    </Col>
+    <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
+    <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Kirubel_Aklilu.jpg' width = '200px'/>
+    <h3>Kirubel Aklilu</h3>
+    <h4>Carnegie Mellon University</h4> 
     </Col>
     </Row>
   </Col>]
@@ -231,6 +302,21 @@ var innerContent2=[
         <Row style={{paddingTop: "50px"}}>
           <div className= "banner">
             {innerContent2}
+          </div>
+        </Row>
+        </div>
+        </section>
+
+        <section id="joindirectors-19">
+        <div className= "web-only">
+        <Row style={{paddingTop: "50px"}}>
+            {innerContent4}
+        </Row>
+        </div>
+        <div className= "mobile-only">
+        <Row style={{paddingTop: "50px"}}>
+          <div className= "banner">
+            {innerContent4}
           </div>
         </Row>
         </div>
