@@ -52,7 +52,7 @@ class DonateHome extends Component {
 
                     Jacob Bass<br/>
                     Board Secretary<br/>
-                    jake@percentageproject.com
+                    operations@percentageproject.com
                   </p>
                 </Col>
                 <Col md = {1}>
@@ -66,7 +66,7 @@ class DonateHome extends Component {
                 </form>
                 <p>
                 <i>
-                All donations will be acknowledged publicly. If you wish for your donation to remain anonymous, please contact jake@percentageproject.com with your request.
+                All donations will be acknowledged publicly. If you wish for your donation to remain anonymous, please contact operations@percentageproject.com with your request.
                 </i>
                 </p>
                 </Col>

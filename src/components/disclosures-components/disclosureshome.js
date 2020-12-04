@@ -50,7 +50,7 @@ class DisclosuresHome extends Component {
                   </a>
                   </div>
                   <p>
-                    Please contact the Board Secretary Jacob Bass at jake@percentageproject.com for any additional records requests.
+                    Please contact the Board Secretary Jacob Bass at operations@percentageproject.com for any additional records requests.
                   </p>
                 </Col>
               </Row>
