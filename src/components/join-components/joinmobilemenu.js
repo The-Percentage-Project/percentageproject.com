@@ -15,7 +15,7 @@ const JoinMobileMenu= (props) => {
         </DropdownToggle>
       <DropdownMenu>
         <DropdownItem>
-          <Link class= "navlink" activeClass="active" to="joinwelcome" href= "" spy={true} smooth={true} duration= {800}> People</Link>
+          <Link class= "navlink" activeClass="active" to="joinwelcome" href= "" spy={true} smooth={true} duration= {800}> About Us</Link>
         </DropdownItem>
         <DropdownItem>
           <Link class= "navlink" activeClass="active" to="joinabout" href= "" spy={true} smooth={true} duration= {800}> Mission</Link>

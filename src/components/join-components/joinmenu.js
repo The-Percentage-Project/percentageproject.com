@@ -9,7 +9,7 @@ class JoinMenu extends Component {
       <div className = "sidenav">
         <Nav vertical>
           <NavItem>
-            <Link class= "navlink" activeClass="active" to="joinwelcome" href= "" spy={true} smooth={true} duration= {800}> People</Link>
+            <Link class= "navlink" activeClass="active" to="joinwelcome" href= "" spy={true} smooth={true} duration= {800}> About Us</Link>
           </NavItem>
           <NavItem>
             <Link class= "navlink" activeClass="active" to="joinabout" href= "" spy={true} smooth={true} duration= {800}> Mission</Link>

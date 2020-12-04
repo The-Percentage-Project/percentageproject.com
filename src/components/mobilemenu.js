@@ -24,7 +24,7 @@ const MobileMenu= (props) => {
             <Link class= "navlink" activeClass="active" to="to-gallery" href= "" spy={true} smooth={true} duration= {800}> Gallery</Link>
           </DropdownItem>
           <DropdownItem>
-            <a href={process.env.PUBLIC_URL + "/#/people"}>People</a>
+            <a href={process.env.PUBLIC_URL + "/#/people"}>About Us</a>
           </DropdownItem>
           <DropdownItem>
             <a href={process.env.PUBLIC_URL + "/#/disclosures"} target = "_blank">Disclosures</a>

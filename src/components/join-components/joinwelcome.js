@@ -25,12 +25,12 @@ class JoinWelcome extends Component {
           <Row>
             <Col md={6} className= "welcome-title web-only">
             <Fade bottom duration= {5000}>
-              <h1>PEOPLE</h1>
+              <h1>ABOUT US</h1>
             </Fade>
             </Col>
             <Col md={6} className= "welcome-title mobile-only">
             <Fade bottom duration= {5000}>
-              <h1 style={{color: "rgba(0, 0, 0, 0.3)"}}><b>PEOPLE</b></h1>
+              <h1 style={{color: "rgba(0, 0, 0, 0.3)"}}><b>ABOUT US</b></h1>
             </Fade>
             </Col>
             <Col md={6} className= "welcome-title">

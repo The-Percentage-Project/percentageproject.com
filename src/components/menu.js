@@ -19,7 +19,7 @@ class Menu extends Component {
           <NavItem>
             <Link class= "navlink" activeClass="active" to="to-gallery" href= "" spy={true} smooth={true} duration= {800}> Gallery</Link>
           </NavItem>
-          <a href={process.env.PUBLIC_URL + "/#/people"}>People</a>
+          <a href={process.env.PUBLIC_URL + "/#/people"}>About Us</a>
           <a href={process.env.PUBLIC_URL + "/#/disclosures"} target = "_blank">Disclosures</a>
           <a href={process.env.PUBLIC_URL + "/#/data"}>Data</a>
           <NavItem>
