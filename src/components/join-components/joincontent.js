@@ -256,7 +256,7 @@ var innerContent2=[
     </Col>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
     <img src= 'https://raw.githubusercontent.com/The-Percentage-Project/photos/master/Campus_Directors_20-21/Melissa_Kwan.JPG' width = '200px'/>
-    <h3>Melissa kwon</h3>
+    <h3>Melissa Kwan</h3>
     <h4>Harvard University</h4> 
     </Col>
     <Col md= {4} style={{padding: "2%", paddingBottom: "5%"}}>
